@@ -73,8 +73,14 @@
     <section class="section section--cream" id="servicios">
       <div class="wrap">
         <div class="head-center reveal">
-          <span class="kicker">Lo que hacemos</span>
-          <h2 class="sec-title">Un solo experto para <span class="hl">toda la casa</span></h2>
+          <div class="tool-deco-row">
+            <i class="bi bi-screwdriver tool-deco tool-deco--left" aria-hidden="true"></i>
+            <div>
+              <span class="kicker">Lo que hacemos</span>
+              <h2 class="sec-title">Un solo experto para <span class="hl">toda la casa</span></h2>
+            </div>
+            <i class="bi bi-paint-bucket tool-deco tool-deco--right" aria-hidden="true"></i>
+          </div>
         </div>
         <div class="grid-serv">
           <article class="card reveal">
@@ -293,8 +299,14 @@
       <span class="deco" style="bottom:28px; right:5%; width:72px; --r:12deg; animation-delay:-3.5s;" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></span>
       <div class="wrap">
         <div class="head-center reveal">
-          <span class="kicker">Dudas comunes</span>
-          <h2 class="sec-title">Preguntas <span class="hl">frecuentes</span></h2>
+          <div class="tool-deco-row">
+            <i class="bi bi-question-square tool-deco tool-deco--left" aria-hidden="true"></i>
+            <div>
+              <span class="kicker">Dudas comunes</span>
+              <h2 class="sec-title">Preguntas <span class="hl">frecuentes</span></h2>
+            </div>
+            <i class="bi bi-patch-question tool-deco tool-deco--right" aria-hidden="true"></i>
+          </div>
         </div>
         <div class="faq reveal">
           <details class="faq__item" open>
