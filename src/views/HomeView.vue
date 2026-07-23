@@ -3,7 +3,7 @@
     <!-- TICKER -->
     <div class="ticker" aria-hidden="true">
       <div class="ticker__track" ref="tickerTrack">
-        <span>ALBAÑILERÍA</span><span class="dot">◆</span><span>FONTANERÍA</span><span class="dot">◆</span><span>ELECTRICIDAD</span><span class="dot">◆</span><span>PINTURA</span><span class="dot">◆</span><span>IMPERMEABILIZACIONES</span><span class="dot">◆</span><span>REMODELACIÓN TOTAL</span><span class="dot">◆</span><span>COTIZA GRATIS</span><span class="dot">◆</span>
+        <span>ALBAÑILERÍA</span><span class="dot">◆</span><span>FONTANERÍA</span><span class="dot">◆</span><span>ELECTRICIDAD</span><span class="dot">◆</span><span>PINTURA</span><span class="dot">◆</span><span>IMPERMEABILIZACIONES</span><span class="dot">◆</span><span>REMODELACIÓN TOTAL</span><span class="dot">◆</span><span>PRESUPUESTO A TU MEDIDA</span><span class="dot">◆</span>
       </div>
     </div>
 
@@ -20,14 +20,16 @@
           <a href="#servicios">Servicios</a>
           <a href="#porque">Por qué</a>
           <a href="#proceso">Proceso</a>
+          <a href="#presupuesto">Presupuesto</a>
           <a href="#zonas">Zonas</a>
+          <a href="#faq">FAQ</a>
         </nav>
         <span class="status" :class="{ closed: isClosed }" title="Horario de atención">
           <span class="dot"></span><span>{{ statusText }}</span>
         </span>
         <a class="btn btn--wa nav__cta" :href="waUrl" target="_blank" rel="noopener">
           <svg viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.945C.16 5.335 5.495 0 12.05 0a11.817 11.817 0 018.413 3.488 11.824 11.824 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.607zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.767.967-.94 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.151-.174.2-.298.3-.497.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.076 4.487.71.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
-          Cotiza gratis
+          Pide tu cotización
         </a>
       </div>
     </header>
@@ -38,7 +40,7 @@
         <div class="hero__copy reveal">
           <span class="hero__eyebrow">Tu casa, en buenas manos 🤠</span>
           <h1>TODO TU HOGAR<br>EN UN <span class="accent">SOLO LUGAR</span></h1>
-          <p class="hero__sub">Albañilería, plomería, electricidad, pintura e impermeabilización. Un solo contacto de <b>confianza</b> para todo lo que tu casa necesita.</p>
+          <p class="hero__sub"><b>Albañil, plomero y electricista en Tlajomulco.</b> Albañilería, plomería, electricidad, pintura e impermeabilización — un solo contacto de confianza para todo lo que tu casa necesita.</p>
           <div class="hero__ctas">
             <a class="btn btn--wa btn--lg" :href="waUrl" target="_blank" rel="noopener">
               <svg viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.945C.16 5.335 5.495 0 12.05 0a11.817 11.817 0 018.413 3.488 11.824 11.824 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.607zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.767.967-.94 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.151-.174.2-.298.3-.497.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.076 4.487.71.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
@@ -62,7 +64,7 @@
               <span class="ring">RODRIGO MARTÍNEZ<small>Remodelaciones 🤠🔨</small></span>
             </div>
           </div>
-          <span class="badge-float">¡Cotiza gratis!</span>
+          <span class="badge-float">¡Pide tu cotización!</span>
         </div>
       </div>
     </section>
@@ -141,7 +143,7 @@
           <p>Servicio honesto, cercano y responsable. Desde una fuga pequeña hasta remodelar la casa completa — aquí encuentras a alguien de confianza.</p>
           <div class="stat-row">
             <div class="stat"><b>6+</b><span>Especialidades</span></div>
-            <div class="stat"><b>100%</b><span>Cotización gratis</span></div>
+            <div class="stat"><b>100%</b><span>Presupuesto a tu medida</span></div>
             <div class="stat"><b>1</b><span>Contacto para todo</span></div>
           </div>
         </aside>
@@ -157,15 +159,68 @@
         </div>
         <div class="steps">
           <div class="step reveal"><h4>Cuéntame</h4><p>Mándame un WhatsApp con lo que necesitas. Una foto ayuda muchísimo.</p></div>
-          <div class="step reveal"><h4>Visita y cotizo</h4><p>Reviso el trabajo y te paso un presupuesto claro, sin compromiso.</p></div>
-          <div class="step reveal"><h4>Manos a la obra</h4><p>Acordamos fecha y empezamos con materiales de calidad.</p></div>
-          <div class="step reveal"><h4>Entrega limpia</h4><p>Reviso contigo que todo quede perfecto antes de irme.</p></div>
+          <div class="step reveal">
+            <h4>Visita y cotizo</h4>
+            <p>Voy a tu casa, reviso el trabajo en detalle y te paso un presupuesto claro y a tu medida.</p>
+            <div class="cost-note">💰 La visita para hacer tu presupuesto tiene un costo y se cobra ese día, se realice o no el trabajo (cubre mi traslado, gasolina y tiempo). Si aceptas, acordamos un anticipo para arrancar — en obras grandes, normalmente la mitad.</div>
+          </div>
+          <div class="step reveal"><h4>Manos a la obra</h4><p>Acordamos fecha. Yo consigo los materiales (o aportamos lo que falte) y empezamos con mano de obra garantizada.</p></div>
+          <div class="step reveal"><h4>Entrega limpia</h4><p>Todo listo, limpio y revisado. Garantía según el tipo de trabajo — cada proyecto es diferente.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRESUPUESTO Y FORMA DE PAGO -->
+    <section class="section section--paper" id="presupuesto">
+      <div class="wrap">
+        <div class="head-center reveal">
+          <span class="kicker">Claro desde el inicio</span>
+          <h2 class="sec-title">Presupuesto y <span class="hl">forma de pago</span></h2>
+        </div>
+
+        <div class="pay-note reveal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+          <p><b>La visita para elaborar tu presupuesto tiene un costo</b> y se cobra el día de la visita, <b>se realice o no el trabajo.</b> Es mi manera de reservar el día, cubrir el traslado y darte una cotización seria y a tu medida. Cada proyecto es diferente, así que no manejo precios fijos.</p>
+        </div>
+
+        <div class="grid-serv">
+          <article class="card reveal">
+            <div class="card__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><path d="M7 7h.01"/></svg></div>
+            <h3>Cada proyecto es distinto</h3>
+            <p>No hay tarifas fijas: depende del trabajo, los materiales y el tamaño. Me adapto al presupuesto que tengas.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12V7H5a2 2 0 0 1 0-4h14v4"/><path d="M3 5v14a2 2 0 0 0 2 2h16v-5"/><path d="M18 12a2 2 0 0 0 0 4h4v-4z"/></svg></div>
+            <h3>Anticipo para arrancar</h3>
+            <p>Si das luz verde, acordamos un anticipo según el proyecto. En obras grandes normalmente es la mitad, para empezar con materiales y mano de obra.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><path d="M3.27 6.96L12 12.01l8.73-5.05M12 22.08V12"/></svg></div>
+            <h3>Yo pongo los materiales</h3>
+            <p>Casi siempre yo consigo los materiales. Si ya tienes algunos en casa, los aprovechamos y se toman en cuenta.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg></div>
+            <h3>Garantía según el trabajo</h3>
+            <p>Respaldo lo que entrego. La garantía varía según el proyecto: no es lo mismo una fachada que una barda con acabado.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+            <h3>Mi propio equipo</h3>
+            <p>Trabajo con mi equipo de contratistas de confianza para que tu obra avance a buen ritmo y quede bien hecha.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card__tag">Mi fuerte</span>
+            <div class="card__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></div>
+            <h3>Especialista en remodelación</h3>
+            <p>Mi fuerte es remodelar casas, cocinas y baños — y también hago albañilería, plomería, electricidad, pintura e impermeabilización.</p>
+          </article>
         </div>
       </div>
     </section>
 
     <!-- ZONAS + CONTACTO -->
-    <section class="section section--paper" id="zonas">
+    <section class="section section--cream" id="zonas">
       <div class="wrap">
         <div class="head-center reveal">
           <span class="kicker">Dónde trabajamos</span>
@@ -204,11 +259,49 @@
       </div>
     </section>
 
+    <!-- PREGUNTAS FRECUENTES (SEO + UX) -->
+    <section class="section section--paper" id="faq">
+      <div class="wrap">
+        <div class="head-center reveal">
+          <span class="kicker">Dudas comunes</span>
+          <h2 class="sec-title">Preguntas <span class="hl">frecuentes</span></h2>
+        </div>
+        <div class="faq reveal">
+          <details class="faq__item" open>
+            <summary>¿Qué servicios de remodelación ofrece Rodrigo Martínez en Tlajomulco?</summary>
+            <p>Albañilería, fontanería y plomería, instalaciones eléctricas, pintura, impermeabilización y remodelación completa de casas, cocinas y baños. Todo con un solo contacto de confianza.</p>
+          </details>
+          <details class="faq__item">
+            <summary>¿El presupuesto tiene costo?</summary>
+            <p><b>Sí. La visita para elaborar tu presupuesto tiene un costo</b> y se cobra el día que voy a tu casa, <b>se realice o no el trabajo.</b> Cubre mi traslado, la gasolina y el tiempo de darte una cotización seria y a tu medida — es mi manera de reservar el día para ti.</p>
+            <p><b>Depende del proyecto:</b> no manejo precios fijos. No es lo mismo una barda con pintura que la remodelación completa de una casa. Cada trabajo es diferente y me adapto a tu presupuesto.</p>
+            <p><b>Si aceptas el proyecto:</b> acordamos un anticipo para arrancar con los materiales y la mano de obra. En obras grandes, normalmente se cubre la mitad al inicio y el resto al terminar.</p>
+          </details>
+          <details class="faq__item">
+            <summary>¿En qué zonas trabajan?</summary>
+            <p>Tlajomulco de Zúñiga y alrededores: Santa Anita, La Noria, Lomas del Sur, Los Eucaliptos, Cuexcomatitlán, San Isidro y Guadalajara. Si tu proyecto es viable, con gusto acudo a otras zonas.</p>
+          </details>
+          <details class="faq__item">
+            <summary>¿Cuánto cobra un albañil o plomero en Tlajomulco?</summary>
+            <p>Depende del trabajo (metros, materiales y tiempo); cada proyecto es distinto y me adapto a tu presupuesto. La visita para elaborar el presupuesto tiene un costo aparte que se cobra ese día. Si me contratas, acordamos un anticipo para arrancar (en obras grandes, normalmente la mitad). Sin sorpresas ni cobros escondidos.</p>
+          </details>
+          <details class="faq__item">
+            <summary>¿Quién pone los materiales?</summary>
+            <p>Normalmente yo me encargo de conseguir los materiales. Si ya tienes algunos en casa (cemento, arena, pintura, etc.), los aprovechamos y se toman en cuenta en tu presupuesto.</p>
+          </details>
+          <details class="faq__item">
+            <summary>¿Ofreces garantía en los trabajos?</summary>
+            <p>Sí. Respaldo mi trabajo con una garantía que varía según el tipo de proyecto — no es lo mismo arreglar una fachada que levantar una barda con empastado y pintura. Te la explico claramente al entregarte tu presupuesto.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
     <!-- CTA FINAL -->
     <section class="finalcta">
       <div class="wrap">
         <h2>¿Tienes un pendiente en casa?<br><span class="accent">Yo te lo resuelvo.</span></h2>
-        <p>Una fuga, una barda, un cuarto nuevo o la remodelación completa. Escríbeme hoy y recibe tu cotización gratis.</p>
+        <p>Una fuga, una barda, un cuarto nuevo o la remodelación completa. Escríbeme hoy, agendamos la visita y te paso tu presupuesto a la medida.</p>
         <a class="btn btn--wa btn--lg" :href="waUrl" target="_blank" rel="noopener">
           <svg viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.945C.16 5.335 5.495 0 12.05 0a11.817 11.817 0 018.413 3.488 11.824 11.824 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.607zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.767.967-.94 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.151-.174.2-.298.3-.497.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.076 4.487.71.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
           Escríbeme por WhatsApp
@@ -549,6 +642,23 @@ header.nav {
 }
 .step h4 { margin: 14px 0 6px; font-size: 1.12rem; font-weight: 800; }
 .step p { font-size: .92rem; color: #343029; }
+.cost-note {
+  background: #FFF5E6; border-left: 4px solid #E0A32C; padding: 12px 14px;
+  margin-top: 10px; border-radius: 6px; font-size: .88rem; color: #8A6A3B;
+  line-height: 1.5;
+}
+
+/* PRESUPUESTO */
+.pay-note {
+  display: flex; gap: 16px; align-items: flex-start;
+  background: #20201E; color: #FAF7F1;
+  border: 3px solid #20201E; border-radius: 16px;
+  padding: 24px 26px; box-shadow: 6px 6px 0 #8C2E1E;
+  max-width: 900px; margin: 0 auto 36px;
+}
+.pay-note svg { flex: 0 0 32px; width: 32px; height: 32px; color: #E0A32C; margin-top: 2px; }
+.pay-note p { font-size: 1.05rem; line-height: 1.55; }
+.pay-note b { color: #F1CB7A; }
 
 /* ZONAS */
 .zones { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; }
@@ -565,6 +675,15 @@ header.nav {
 .contact-row .ic svg { width: 22px; height: 22px; }
 .contact-row small { display: block; text-transform: uppercase; letter-spacing: 1px; font-size: .68rem; color: #F1CB7A; }
 .contact-row b { font-size: 1.12rem; word-break: break-word; }
+
+/* FAQ */
+.faq { max-width: 820px; margin: 0 auto; display: grid; gap: 14px; }
+.faq__item { background: #fff; border: 3px solid #20201E; border-radius: 14px; padding: 6px 22px; box-shadow: 6px 6px 0 #20201E; }
+.faq__item summary { list-style: none; cursor: pointer; font-weight: 800; font-size: 1.08rem; padding: 16px 0; display: flex; align-items: center; justify-content: space-between; gap: 14px; }
+.faq__item summary::-webkit-details-marker { display: none; }
+.faq__item summary::after { content: "+"; font-family: 'Anton', sans-serif; font-size: 1.6rem; color: #C0432E; transition: transform .2s; line-height: 1; }
+.faq__item[open] summary::after { transform: rotate(45deg); }
+.faq__item p { padding: 0 0 18px; color: #343029; font-size: .98rem; }
 
 /* CTA FINAL */
 .finalcta { background: linear-gradient(135deg, #C0432E 0%, #8C2E1E 100%); color: #FAF7F1; text-align: center; padding: 70px 0; position: relative; overflow: hidden; }
