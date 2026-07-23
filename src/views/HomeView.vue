@@ -152,6 +152,8 @@
 
     <!-- PROCESO -->
     <section class="section section--cream" id="proceso">
+      <span class="deco" style="top:34px; right:5%; width:74px; --r:14deg;" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></span>
+      <span class="deco" style="bottom:24px; left:4%; width:66px; --r:-12deg; animation-delay:-2s;" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M19 3H5a2 2 0 0 0-2 2v6h18V5a2 2 0 0 0-2-2z"/><path d="M21 11v3a2 2 0 0 1-2 2h-7v3a2 2 0 0 1-2 2H8v-5"/></svg></span>
       <div class="wrap">
         <div class="head-center reveal">
           <span class="kicker">Fácil y directo</span>
@@ -161,8 +163,7 @@
           <div class="step reveal"><h4>Cuéntame</h4><p>Mándame un WhatsApp con lo que necesitas. Una foto ayuda muchísimo.</p></div>
           <div class="step reveal">
             <h4>Visita y cotizo</h4>
-            <p>Voy a tu casa, reviso el trabajo en detalle y te paso un presupuesto claro y a tu medida.</p>
-            <div class="cost-note">💰 La visita para hacer tu presupuesto tiene un costo y se cobra ese día, se realice o no el trabajo (cubre mi traslado, gasolina y tiempo). Si aceptas, acordamos un anticipo para arrancar — en obras grandes, normalmente la mitad.</div>
+            <p>Voy a tu casa, reviso el trabajo en detalle y te paso un presupuesto claro y a tu medida. <b>(Tiene un costo.)</b></p>
           </div>
           <div class="step reveal"><h4>Manos a la obra</h4><p>Acordamos fecha. Yo consigo los materiales (o aportamos lo que falte) y empezamos con mano de obra garantizada.</p></div>
           <div class="step reveal"><h4>Entrega limpia</h4><p>Todo listo, limpio y revisado. Garantía según el tipo de trabajo — cada proyecto es diferente.</p></div>
@@ -172,27 +173,29 @@
 
     <!-- PRESUPUESTO Y FORMA DE PAGO -->
     <section class="section section--paper" id="presupuesto">
+      <span class="deco" style="top:40px; left:4%; width:70px; --r:-14deg;" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9.06 11.9l8.07-8.06a2.85 2.85 0 1 1 4.03 4.03l-8.06 8.08"/><path d="M7.07 14.94c-1.66 0-3 1.35-3 3.02 0 1.33-2.5 1.52-2 2.02 1.08 1.1 2.49 2.02 4 2.02 2.2 0 4-1.8 4-4.04a3.01 3.01 0 0 0-3-3.02z"/></svg></span>
+      <span class="deco" style="bottom:30px; right:5%; width:78px; --r:12deg; animation-delay:-3s;" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M4 21V10l4-3 4 3M12 21V7l8-4v18M8 21v-5M16 11h.01M16 15h.01"/></svg></span>
       <div class="wrap">
         <div class="head-center reveal">
           <span class="kicker">Claro desde el inicio</span>
           <h2 class="sec-title">Presupuesto y <span class="hl">forma de pago</span></h2>
         </div>
 
-        <div class="pay-note reveal">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
-          <p><b>La visita para elaborar tu presupuesto tiene un costo</b> y se cobra el día de la visita, <b>se realice o no el trabajo.</b> Es mi manera de reservar el día, cubrir el traslado y darte una cotización seria y a tu medida. Cada proyecto es diferente, así que no manejo precios fijos.</p>
+        <div class="pay-mini reveal">
+          <span class="pay-mini__ic">💡</span>
+          <p>Elaborar tu presupuesto <b>tiene un costo</b>, y depende de cada proyecto.</p>
         </div>
 
         <div class="grid-serv">
           <article class="card reveal">
-            <div class="card__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><path d="M7 7h.01"/></svg></div>
-            <h3>Cada proyecto es distinto</h3>
-            <p>No hay tarifas fijas: depende del trabajo, los materiales y el tamaño. Me adapto al presupuesto que tengas.</p>
+            <div class="card__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div>
+            <h3>A tu propio ritmo</h3>
+            <p>Tras la visita, te tomas el tiempo que necesites para decidir. Sin presiones — cuando estés listo, arrancamos.</p>
           </article>
           <article class="card reveal">
-            <div class="card__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12V7H5a2 2 0 0 1 0-4h14v4"/><path d="M3 5v14a2 2 0 0 0 2 2h16v-5"/><path d="M18 12a2 2 0 0 0 0 4h4v-4z"/></svg></div>
-            <h3>Anticipo para arrancar</h3>
-            <p>Si das luz verde, acordamos un anticipo según el proyecto. En obras grandes normalmente es la mitad, para empezar con materiales y mano de obra.</p>
+            <div class="card__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="10"/></svg></div>
+            <h3>Trato claro y honesto</h3>
+            <p>Antes de empezar sabes qué incluye tu presupuesto. Sin cobros escondidos ni sorpresas al final.</p>
           </article>
           <article class="card reveal">
             <div class="card__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><path d="M3.27 6.96L12 12.01l8.73-5.05M12 22.08V12"/></svg></div>
@@ -221,6 +224,8 @@
 
     <!-- ZONAS + CONTACTO -->
     <section class="section section--cream" id="zonas">
+      <span class="deco" style="top:36px; right:6%; width:60px; --r:16deg;" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg></span>
+      <span class="deco" style="bottom:26px; left:5%; width:66px; --r:-10deg; animation-delay:-2.5s;" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M19 3H5a2 2 0 0 0-2 2v6h18V5a2 2 0 0 0-2-2z"/><path d="M21 11v3a2 2 0 0 1-2 2h-7v3a2 2 0 0 1-2 2H8v-5"/></svg></span>
       <div class="wrap">
         <div class="head-center reveal">
           <span class="kicker">Dónde trabajamos</span>
@@ -261,6 +266,8 @@
 
     <!-- PREGUNTAS FRECUENTES (SEO + UX) -->
     <section class="section section--paper" id="faq">
+      <span class="deco" style="top:38px; left:4%; width:66px; --r:-12deg;" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg></span>
+      <span class="deco" style="bottom:28px; right:5%; width:72px; --r:12deg; animation-delay:-3.5s;" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></span>
       <div class="wrap">
         <div class="head-center reveal">
           <span class="kicker">Dudas comunes</span>
@@ -273,9 +280,7 @@
           </details>
           <details class="faq__item">
             <summary>¿El presupuesto tiene costo?</summary>
-            <p><b>Sí. La visita para elaborar tu presupuesto tiene un costo</b> y se cobra el día que voy a tu casa, <b>se realice o no el trabajo.</b> Cubre mi traslado, la gasolina y el tiempo de darte una cotización seria y a tu medida — es mi manera de reservar el día para ti.</p>
-            <p><b>Depende del proyecto:</b> no manejo precios fijos. No es lo mismo una barda con pintura que la remodelación completa de una casa. Cada trabajo es diferente y me adapto a tu presupuesto.</p>
-            <p><b>Si aceptas el proyecto:</b> acordamos un anticipo para arrancar con los materiales y la mano de obra. En obras grandes, normalmente se cubre la mitad al inicio y el resto al terminar.</p>
+            <p>Sí. Elaborar tu presupuesto tiene un costo y depende de cada proyecto. Se cobra el día de la visita y, si me contratas, se te descuenta del total.</p>
           </details>
           <details class="faq__item">
             <summary>¿En qué zonas trabajan?</summary>
@@ -283,7 +288,7 @@
           </details>
           <details class="faq__item">
             <summary>¿Cuánto cobra un albañil o plomero en Tlajomulco?</summary>
-            <p>Depende del trabajo (metros, materiales y tiempo); cada proyecto es distinto y me adapto a tu presupuesto. La visita para elaborar el presupuesto tiene un costo aparte que se cobra ese día. Si me contratas, acordamos un anticipo para arrancar (en obras grandes, normalmente la mitad). Sin sorpresas ni cobros escondidos.</p>
+            <p>Depende del trabajo (metros, materiales y tiempo); cada proyecto es distinto y me adapto a tu presupuesto, sin precios fijos. Elaborar el presupuesto tiene un costo que, si me contratas, se descuenta del total. Sin sorpresas ni cobros escondidos.</p>
           </details>
           <details class="faq__item">
             <summary>¿Quién pone los materiales?</summary>
@@ -299,6 +304,23 @@
 
     <!-- CTA FINAL -->
     <section class="finalcta">
+      <span class="deco deco--light" style="top:30px; left:5%; width:66px; --r:-14deg;" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></span>
+      <span class="deco deco--light" style="top:40px; left:16%; width:52px; --r:10deg; animation-delay:-2s;" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg></span>
+      <div class="worker-wrap" aria-hidden="true">
+        <svg class="worker" viewBox="0 0 120 132" xmlns="http://www.w3.org/2000/svg">
+          <ellipse cx="60" cy="122" rx="27" ry="5" fill="rgba(0,0,0,.18)"/>
+          <circle cx="60" cy="80" r="26" fill="#F3D6A4" stroke="#20201E" stroke-width="3.5"/>
+          <circle cx="50" cy="78" r="3.4" fill="#20201E"/>
+          <circle cx="70" cy="78" r="3.4" fill="#20201E"/>
+          <circle cx="43" cy="87" r="4" fill="#E27B5B" opacity=".55"/>
+          <circle cx="77" cy="87" r="4" fill="#E27B5B" opacity=".55"/>
+          <path d="M49 88 q11 12 22 0" fill="none" stroke="#20201E" stroke-width="3.5" stroke-linecap="round"/>
+          <rect x="15" y="54" width="90" height="11" rx="5.5" fill="#E0A32C" stroke="#20201E" stroke-width="3.5"/>
+          <path d="M28 57 a32 27 0 0 1 64 0 Z" fill="#E0A32C" stroke="#20201E" stroke-width="3.5"/>
+          <rect x="53" y="23" width="14" height="10" rx="3" fill="#C0432E" stroke="#20201E" stroke-width="3"/>
+          <path d="M60 33 v23" stroke="#8C2E1E" stroke-width="4" stroke-linecap="round"/>
+        </svg>
+      </div>
       <div class="wrap">
         <h2>¿Tienes un pendiente en casa?<br><span class="accent">Yo te lo resuelvo.</span></h2>
         <p>Una fuga, una barda, un cuarto nuevo o la remodelación completa. Escríbeme hoy, agendamos la visita y te paso tu presupuesto a la medida.</p>
@@ -311,6 +333,8 @@
 
     <!-- FOOTER -->
     <footer>
+      <span class="deco deco--light" style="top:24px; right:6%; width:58px; --r:14deg; opacity:.09;" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9.06 11.9l8.07-8.06a2.85 2.85 0 1 1 4.03 4.03l-8.06 8.08"/><path d="M7.07 14.94c-1.66 0-3 1.35-3 3.02 0 1.33-2.5 1.52-2 2.02 1.08 1.1 2.49 2.02 4 2.02 2.2 0 4-1.8 4-4.04a3.01 3.01 0 0 0-3-3.02z"/></svg></span>
+      <span class="deco deco--light" style="bottom:30px; left:4%; width:50px; --r:-12deg; opacity:.09; animation-delay:-2s;" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></span>
       <div class="wrap">
         <div class="foot-grid">
           <div>
@@ -642,23 +666,38 @@ header.nav {
 }
 .step h4 { margin: 14px 0 6px; font-size: 1.12rem; font-weight: 800; }
 .step p { font-size: .92rem; color: #343029; }
-.cost-note {
-  background: #FFF5E6; border-left: 4px solid #E0A32C; padding: 12px 14px;
-  margin-top: 10px; border-radius: 6px; font-size: .88rem; color: #8A6A3B;
-  line-height: 1.5;
+/* DECORACIONES DE HERRAMIENTAS */
+.section { position: relative; overflow: hidden; }
+footer { position: relative; overflow: hidden; }
+.wrap { position: relative; z-index: 1; }
+.deco {
+  position: absolute; z-index: 0; pointer-events: none; color: #8A6A3B; opacity: .11;
+  animation: floaty 7s ease-in-out infinite;
+}
+.deco svg { width: 100%; height: 100%; display: block; }
+.deco--light { color: #FAF7F1; opacity: .16; }
+@keyframes floaty {
+  0%,100% { transform: translateY(0) rotate(var(--r,0deg)); }
+  50% { transform: translateY(-14px) rotate(var(--r,0deg)); }
+}
+
+/* MASCOTA TRABAJADOR FELIZ */
+.worker-wrap { position: absolute; right: 4%; bottom: 0; width: 168px; z-index: 1; pointer-events: none; }
+.worker { width: 100%; height: auto; display: block; transform-origin: 60px 108px; animation: workerBob 3.4s ease-in-out infinite; }
+@keyframes workerBob {
+  0%,100% { transform: translateY(0) rotate(-3deg); }
+  50% { transform: translateY(-10px) rotate(3deg); }
 }
 
 /* PRESUPUESTO */
-.pay-note {
-  display: flex; gap: 16px; align-items: flex-start;
-  background: #20201E; color: #FAF7F1;
-  border: 3px solid #20201E; border-radius: 16px;
-  padding: 24px 26px; box-shadow: 6px 6px 0 #8C2E1E;
-  max-width: 900px; margin: 0 auto 36px;
+.pay-mini {
+  display: flex; align-items: center; gap: 11px; justify-content: center;
+  max-width: 580px; margin: 0 auto 40px; padding: 15px 22px;
+  background: #FBF3E4; border: 2px dashed #E6C58A; border-radius: 14px; text-align: center;
 }
-.pay-note svg { flex: 0 0 32px; width: 32px; height: 32px; color: #E0A32C; margin-top: 2px; }
-.pay-note p { font-size: 1.05rem; line-height: 1.55; }
-.pay-note b { color: #F1CB7A; }
+.pay-mini__ic { font-size: 1.25rem; line-height: 1; }
+.pay-mini p { font-size: 1.02rem; color: #6f5836; }
+.pay-mini b { color: #C0432E; }
 
 /* ZONAS */
 .zones { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; }
@@ -732,6 +771,7 @@ footer ul a:hover { color: #fff; }
 @media(max-width:860px){
   .nav__links { display: none; }
   .foot-grid { grid-template-columns: 1fr 1fr; }
+  .worker-wrap { width: 128px; }
 }
 @media(max-width:560px){
   .grid-serv { grid-template-columns: 1fr; }
@@ -741,6 +781,8 @@ footer ul a:hover { color: #fff; }
   .btn { width: 100%; }
   .hero__ctas { flex-direction: column; width: 100%; }
   .nav__cta { display: none; }
+  .worker-wrap { display: none; }
+  .deco { opacity: .07; }
 }
 @media(prefers-reduced-motion:reduce){
   * { animation: none !important; transition: none !important; }
