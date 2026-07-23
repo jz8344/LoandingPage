@@ -150,34 +150,19 @@
       </div>
     </section>
 
-    <!-- CÓMO TRABAJAMOS (PROCESO) -->
+    <!-- PROCESO -->
     <section class="section section--cream" id="proceso">
       <span class="deco" style="top:34px; right:5%; width:74px; --r:14deg;" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></span>
       <span class="deco" style="bottom:24px; left:4%; width:66px; --r:-12deg; animation-delay:-2s;" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M19 3H5a2 2 0 0 0-2 2v6h18V5a2 2 0 0 0-2-2z"/><path d="M21 11v3a2 2 0 0 1-2 2h-7v3a2 2 0 0 1-2 2H8v-5"/></svg></span>
       <div class="wrap">
-        <div class="head-with-tools reveal">
-          <!-- ILUSTRACIÓN DE HERRAMIENTAS DECORATIVAS (CRUZADAS) -->
-          <div class="tool-banner-badge" aria-hidden="true" title="Herramientas de trabajo">
-            <svg class="tool-badge-svg" viewBox="0 0 100 100">
-              <!-- Llave Perica / Wrench Plata -->
-              <g transform="rotate(-45 50 50)">
-                <rect x="44" y="15" width="12" height="70" rx="4" fill="#78909C" stroke="#20201E" stroke-width="3" />
-                <path d="M38 15 C38 5 62 5 62 15 L56 26 L44 26 Z" fill="#CFD8DC" stroke="#20201E" stroke-width="3" stroke-linejoin="round"/>
-                <circle cx="50" cy="75" r="5" fill="#20201E" />
-              </g>
-              <!-- Desarmador Verde -->
-              <g transform="rotate(45 50 50)">
-                <rect x="46" y="10" width="8" height="42" fill="#ECEFF1" stroke="#20201E" stroke-width="3"/>
-                <polygon points="44,10 56,10 52,4 48,4" fill="#607D8B" stroke="#20201E" stroke-width="2"/>
-                <rect x="40" y="52" width="20" height="38" rx="6" fill="#4CAF50" stroke="#20201E" stroke-width="3.5"/>
-                <line x1="45" y1="55" x2="45" y2="87" stroke="#81C784" stroke-width="3" stroke-linecap="round"/>
-                <line x1="55" y1="55" x2="55" y2="87" stroke="#2E7D32" stroke-width="3" stroke-linecap="round"/>
-              </g>
-            </svg>
-          </div>
-          <div class="head-center" style="margin-bottom:0;">
-            <span class="kicker">Fácil y directo</span>
-            <h2 class="sec-title">Cómo <span class="hl">trabajamos</span></h2>
+        <div class="head-center reveal">
+          <div class="tool-deco-row">
+            <i class="bi bi-hammer tool-deco tool-deco--left" aria-hidden="true"></i>
+            <div>
+              <span class="kicker">Fácil y directo</span>
+              <h2 class="sec-title">Cómo <span class="hl">trabajamos</span></h2>
+            </div>
+            <i class="bi bi-wrench-adjustable tool-deco tool-deco--right" aria-hidden="true"></i>
           </div>
         </div>
         <div class="steps">
@@ -197,32 +182,18 @@
       <span class="deco" style="top:40px; left:4%; width:70px; --r:-14deg;" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9.06 11.9l8.07-8.06a2.85 2.85 0 1 1 4.03 4.03l-8.06 8.08"/><path d="M7.07 14.94c-1.66 0-3 1.35-3 3.02 0 1.33-2.5 1.52-2 2.02 1.08 1.1 2.49 2.02 4 2.02 2.2 0 4-1.8 4-4.04a3.01 3.01 0 0 0-3-3.02z"/></svg></span>
       <span class="deco" style="bottom:30px; right:5%; width:78px; --r:12deg; animation-delay:-3s;" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M4 21V10l4-3 4 3M12 21V7l8-4v18M8 21v-5M16 11h.01M16 15h.01"/></svg></span>
       <div class="wrap">
-        <div class="head-with-tools reveal">
-          <!-- ILUSTRACIÓN DE HERRAMIENTAS DECORATIVAS (MARTILLO Y SERROTE) -->
-          <div class="tool-banner-badge" aria-hidden="true" title="Herramientas de construcción">
-            <svg class="tool-badge-svg" viewBox="0 0 110 90">
-              <!-- Serroche Rojo -->
-              <g transform="rotate(-22 45 45)">
-                <polygon points="20,20 85,26 85,42 20,42" fill="#CFD8DC" stroke="#20201E" stroke-width="3" stroke-linejoin="round"/>
-                <path d="M20 42 L25 47 L30 42 L35 47 L40 42 L45 47 L50 42 L55 47 L60 42 L65 47 L70 42 L75 47 L80 42 L85 47" stroke="#20201E" stroke-width="2.5" fill="none"/>
-                <path d="M10 14 C 4 14 4 46 10 46 L 22 42 L 22 18 Z" fill="#E53935" stroke="#20201E" stroke-width="3"/>
-                <circle cx="15" cy="30" r="4" fill="#20201E"/>
-              </g>
-              <!-- Martillo Madera/Acero -->
-              <g transform="rotate(22 75 45)">
-                <rect x="70" y="24" width="10" height="58" rx="3" fill="#8D6E63" stroke="#20201E" stroke-width="3"/>
-                <path d="M52 12 L92 12 L95 26 L56 26 Z" fill="#455A64" stroke="#20201E" stroke-width="3.5" stroke-linejoin="round"/>
-                <path d="M92 12 C 98 4 105 2 108 5 C 103 14 97 20 95 26 Z" fill="#78909C" stroke="#20201E" stroke-width="2.5"/>
-              </g>
-            </svg>
-          </div>
-          <div class="head-center" style="margin-bottom:0;">
-            <span class="kicker">Claro desde el inicio</span>
-            <h2 class="sec-title">Presupuesto y <span class="hl">forma de pago</span></h2>
+        <div class="head-center reveal">
+          <div class="tool-deco-row">
+            <i class="bi bi-rulers tool-deco tool-deco--left" aria-hidden="true"></i>
+            <div>
+              <span class="kicker">Claro desde el inicio</span>
+              <h2 class="sec-title">Presupuesto y <span class="hl">forma de pago</span></h2>
+            </div>
+            <i class="bi bi-tools tool-deco tool-deco--right" aria-hidden="true"></i>
           </div>
         </div>
 
-        <div class="pay-mini reveal" style="margin-top:24px;">
+        <div class="pay-mini reveal">
           <span class="pay-mini__ic">💡</span>
           <p>Elaborar tu presupuesto <b>tiene un costo</b>, y depende de cada proyecto.</p>
         </div>
@@ -249,7 +220,7 @@
             <p>Respaldo lo que entrego. La garantía varía según el proyecto: no es lo mismo una fachada que una barda con acabado.</p>
           </article>
           <article class="card reveal">
-            <div class="card__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 1 0 7.75"/></svg></div>
+            <div class="card__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
             <h3>Mi propio equipo</h3>
             <p>Trabajo con mi equipo de contratistas de confianza para que tu obra avance a buen ritmo y quede bien hecha.</p>
           </article>
@@ -268,31 +239,17 @@
       <span class="deco" style="top:36px; right:6%; width:60px; --r:16deg;" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg></span>
       <span class="deco" style="bottom:26px; left:5%; width:66px; --r:-10deg; animation-delay:-2.5s;" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M19 3H5a2 2 0 0 0-2 2v6h18V5a2 2 0 0 0-2-2z"/><path d="M21 11v3a2 2 0 0 1-2 2h-7v3a2 2 0 0 1-2 2H8v-5"/></svg></span>
       <div class="wrap">
-        <div class="head-with-tools reveal">
-          <!-- ILUSTRACIÓN DE HERRAMIENTAS DECORATIVAS (PALA Y CUCHARA DE ALBAÑIL) -->
-          <div class="tool-banner-badge" aria-hidden="true" title="Herramientas de albañilería">
-            <svg class="tool-badge-svg" viewBox="0 0 110 90">
-              <!-- Pala Verde -->
-              <g transform="rotate(-18 40 45)">
-                <rect x="38" y="8" width="8" height="50" rx="2" fill="#8D6E63" stroke="#20201E" stroke-width="3"/>
-                <path d="M26 55 Q 42 88 58 55 Z" fill="#2E7D32" stroke="#20201E" stroke-width="3.5" stroke-linejoin="round"/>
-                <path d="M34 8 C 34 0 50 0 50 8" fill="none" stroke="#20201E" stroke-width="3"/>
-              </g>
-              <!-- Cuchara Albañil -->
-              <g transform="rotate(22 72 45)">
-                <path d="M54 20 L94 38 L68 64 Z" fill="#CFD8DC" stroke="#20201E" stroke-width="3.5" stroke-linejoin="round"/>
-                <path d="M58 38 L44 34 L44 48" fill="none" stroke="#20201E" stroke-width="3"/>
-                <rect x="34" y="45" width="12" height="28" rx="4" fill="#E0A32C" stroke="#20201E" stroke-width="3"/>
-              </g>
-            </svg>
-          </div>
-          <div class="head-center" style="margin-bottom:0;">
-            <span class="kicker">Dónde trabajamos</span>
-            <h2 class="sec-title">Servicio en <span class="hl">Tlajomulco</span> y alrededores</h2>
+        <div class="head-center reveal">
+          <div class="tool-deco-row">
+            <i class="bi bi-house-gear tool-deco tool-deco--left" aria-hidden="true"></i>
+            <div>
+              <span class="kicker">Dónde trabajamos</span>
+              <h2 class="sec-title">Servicio en <span class="hl">Tlajomulco</span> y alrededores</h2>
+            </div>
+            <i class="bi bi-cone-striped tool-deco tool-deco--right" aria-hidden="true"></i>
           </div>
         </div>
-
-        <div class="zones" style="margin-top:36px;">
+        <div class="zones">
           <div class="zones__box reveal">
             <h3>Zonas de cobertura</h3>
             <div class="chips">
@@ -341,7 +298,7 @@
           </details>
           <details class="faq__item">
             <summary>¿El presupuesto tiene costo?</summary>
-            <p>Sí. Elaborar el presupuesto tiene un costo que depende de cada proyecto. Se cobra el día de la visita y, si contratas el trabajo, se descuenta del total.</p>
+            <p>Sí. Elaborar tu presupuesto tiene un costo y depende de cada proyecto. Se cobra el día de la visita y, si me contratas, se te descuenta del total.</p>
           </details>
           <details class="faq__item">
             <summary>¿En qué zonas trabajan?</summary>
@@ -349,15 +306,15 @@
           </details>
           <details class="faq__item">
             <summary>¿Cuánto cobra un albañil o plomero en Tlajomulco?</summary>
-            <p>Depende del trabajo (metros, materiales y tiempo); cada proyecto es distinto y nos adaptamos a tu presupuesto, sin precios fijos. Elaborar el presupuesto tiene un costo que, si contratas, se descuenta del total. Sin sorpresas ni cobros escondidos.</p>
+            <p>Depende del trabajo (metros, materiales y tiempo); cada proyecto es distinto y me adapto a tu presupuesto, sin precios fijos. Elaborar el presupuesto tiene un costo que, si me contratas, se descuenta del total. Sin sorpresas ni cobros escondidos.</p>
           </details>
           <details class="faq__item">
             <summary>¿Quién pone los materiales?</summary>
-            <p>Normalmente yo me encargo de conseguir los materiales. Si ya tienes algunos en casa (cemento, arena, pintura), los aprovechamos y se toman en cuenta en tu presupuesto.</p>
+            <p>Normalmente yo me encargo de conseguir los materiales. Si ya tienes algunos en casa (cemento, arena, pintura, etc.), los aprovechamos y se toman en cuenta en tu presupuesto.</p>
           </details>
           <details class="faq__item">
             <summary>¿Ofreces garantía en los trabajos?</summary>
-            <p>Sí. Respaldo mi trabajo con una garantía que varía según el tipo de proyecto: no es lo mismo arreglar una fachada que levantar una barda con empastado y pintura. Se explica al entregar el presupuesto.</p>
+            <p>Sí. Respaldo mi trabajo con una garantía que varía según el tipo de proyecto — no es lo mismo arreglar una fachada que levantar una barda con empastado y pintura. Te la explico claramente al entregarte tu presupuesto.</p>
           </details>
         </div>
       </div>
@@ -728,20 +685,29 @@ header.nav {
 .step h4 { margin: 14px 0 6px; font-size: 1.12rem; font-weight: 800; }
 .step p { font-size: .92rem; color: #343029; }
 
-/* ENCABEZADOS CON ILUSTRACIÓN DE HERRAMIENTAS VISIBLES */
-.head-with-tools {
-  display: flex; flex-direction: column; align-items: center; text-align: center;
-  margin-bottom: 36px; position: relative;
+/* ICONOS DECORATIVOS DE HERRAMIENTAS (Bootstrap Icons) */
+.tool-deco-row {
+  display: flex; align-items: center; justify-content: center; gap: 18px;
 }
-.tool-banner-badge {
-  width: 90px; height: 76px; background: #fff; border: 3px solid #20201E;
-  border-radius: 18px; box-shadow: 4px 4px 0 #20201E; display: grid;
-  place-items: center; margin-bottom: 12px; transition: transform .2s ease;
+.tool-deco-row > div { flex: 0 1 auto; }
+.tool-deco {
+  font-size: clamp(2.2rem, 5vw, 3.4rem);
+  color: #C0432E;
+  opacity: .22;
+  pointer-events: none;
+  flex-shrink: 0;
+  animation: toolSway 4s ease-in-out infinite;
 }
-.tool-banner-badge:hover { transform: scale(1.06) rotate(-3deg); }
-.tool-badge-svg { width: 72px; height: 62px; filter: drop-shadow(1px 2px 0 rgba(0,0,0,.15)); }
+.tool-deco--left { transform: rotate(-18deg); }
+.tool-deco--right { transform: rotate(18deg); animation-delay: -2s; }
+@keyframes toolSway {
+  0%, 100% { transform: rotate(var(--base-r, -18deg)) translateY(0); }
+  50% { transform: rotate(var(--base-r, -18deg)) translateY(-8px); }
+}
+.tool-deco--left { --base-r: -18deg; }
+.tool-deco--right { --base-r: 18deg; }
 
-/* DECORACIONES DE HERRAMIENTAS DE FONDO */
+/* DECORACIONES DE HERRAMIENTAS (SVG flotantes) */
 .section { position: relative; overflow: hidden; }
 footer { position: relative; overflow: hidden; }
 .wrap { position: relative; z-index: 1; }
@@ -858,8 +824,8 @@ footer ul a:hover { color: #fff; }
   .nav__cta { display: none; }
   .worker-wrap { display: none; }
   .deco { opacity: .07; }
-  .tool-banner-badge { width: 76px; height: 64px; }
-  .tool-badge-svg { width: 60px; height: 50px; }
+  .tool-deco { font-size: 2rem; opacity: .15; }
+  .tool-deco-row { gap: 10px; }
 }
 @media(prefers-reduced-motion:reduce){
   * { animation: none !important; transition: none !important; }
