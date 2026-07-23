@@ -3,7 +3,7 @@
     <!-- TICKER -->
     <div class="ticker" aria-hidden="true">
       <div class="ticker__track" ref="tickerTrack">
-        <span>ALBAÑILERÍA</span><span class="dot">◆</span><span>FONTANERÍA</span><span class="dot">◆</span><span>ELECTRICIDAD</span><span class="dot">◆</span><span>PINTURA</span><span class="dot">◆</span><span>IMPERMEABILIZACIONES</span><span class="dot">◆</span><span>REMODELACIÓN TOTAL</span><span class="dot">◆</span><span>PRESUPUESTO A TU MEDIDA</span><span class="dot">◆</span>
+        <span>ALBAÑILERÍA</span><span class="dot">◆</span><span>FONTANERÍA</span><span class="dot">◆</span><span>ELECTRICIDAD</span><span class="dot">◆</span><span>PINTURA</span><span class="dot">◆</span><span>IMPERMEABILIZACIONES</span><span class="dot">◆</span><span>VITROPISO</span><span class="dot">◆</span><span>REMODELACIÓN TOTAL</span><span class="dot">◆</span><span>PRESUPUESTO A TU MEDIDA</span><span class="dot">◆</span>
       </div>
     </div>
 
@@ -101,6 +101,11 @@
             <div class="card__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7z"/><path d="M12 8v4M12 15h.01"/></svg></div>
             <h3>Impermeabilización</h3>
             <p>Azoteas, techos y muros. Adiós a las goteras en época de lluvias — protección que dura.</p>
+          </article>
+          <article class="card reveal">
+            <div class="card__ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 3v18"/></svg></div>
+            <h3>Vitropiso</h3>
+            <p>Colocación de vitropiso en cocinas, baños, salas y exteriores. Acabado limpio y duradero que transforma tus espacios.</p>
           </article>
           <article class="card reveal">
             <span class="card__tag">Todo en 1</span>
@@ -366,6 +371,7 @@
               <li><a href="#servicios">Fontanería</a></li>
               <li><a href="#servicios">Electricidad</a></li>
               <li><a href="#servicios">Pintura e impermeabilización</a></li>
+              <li><a href="#servicios">Vitropiso</a></li>
             </ul>
           </div>
           <div>
